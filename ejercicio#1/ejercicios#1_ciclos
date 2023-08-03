@@ -1,0 +1,19 @@
+
+// Ejercicio de Ciclos
+// Hacer un cuadro con *, dependiendo del número que ingrese 
+// Ejemplo
+// Si ingreso el 4 , Entonces debo mostrar en la consola
+// ****
+// ****
+// ****
+// ****
+
+
+const prompt = require('prompt-sync')();
+
+let  numero = prompt(' Ingresa un numero ');
+
+  for (let index = 1; index <= numero; index++) {
+      console.log("*".repeat(numero))   
+ }
+
